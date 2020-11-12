@@ -1,0 +1,14 @@
+query pastlaunchesList($limit: Int){
+  launches(limit: 5) {
+    id  
+    launch_date_utc
+    launch_success
+    rocket {
+      rocket_name
+    }
+    links {
+      video_link
+    }
+    details
+  }
+}
