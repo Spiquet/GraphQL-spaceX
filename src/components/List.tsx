@@ -30,8 +30,9 @@ function List(): JSX.Element {
   <>
 
 <header>
-        <h1>Space X launches</h1>
-    </header>
+        <h1>Space X List</h1>
+
+</header>
 
     <main className="container">
 
@@ -39,9 +40,10 @@ function List(): JSX.Element {
             {data.launches.map((launche: any) => (
               <Launche
                 key={launche.date}
-                success={launche.succes}
-                date={launche.date}
-                links={launche.links}
+                success={launche.launch_success}
+                rocket={launche.rocket.rocket_name}
+                date={launche.launch_date_utc}
+                links={launche.links.video_link}
                 details={launche.details}
 
               />

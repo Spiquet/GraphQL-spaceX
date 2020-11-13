@@ -15,18 +15,22 @@ h3 {
 
 h1 {
   font-size: 40px;
+  text-align: center;
 }
 
 h2 {
   font-size: 28px;
+  text-align: center;
 }
 
 h3 {
   font-size: 20px;
+  text-align: center;
 }
 
 h4 {
   font-size: 15px;
+  text-align: center;
 }
 
 p {
@@ -41,12 +45,13 @@ p {
 }
 
 header {
-  background-color: #f76c6c;
-  color: #fff;
+  background-color: #222;
+  color: #8A2BE2;
+
 }
 
 footer {
-  border-top: 2px solid #f76c6c;
+  border-top: 2px solid #222;
 }
 
 /* 
@@ -74,7 +79,7 @@ footer {
 
 .card h3,
 .card h4 {
-  color: #f76c6c;
+  color: #8A2BE2;
   display: grid;
   grid-template-columns: 1fr auto;
   align-items: start;

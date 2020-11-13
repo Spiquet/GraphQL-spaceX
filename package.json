@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@apollo/client": "^3.2.5",
-    "graphql": "^15.4.0"
+    "graphql": "^15.4.0",
+    "react-iframe": "^1.8.0"
   }
 }
